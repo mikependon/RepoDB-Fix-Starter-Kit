@@ -1,5 +1,7 @@
 ﻿using RepoDb.Fix.StarterKit.Repositories;
 
+RepoDb.SqlServerBootstrap.Initialize();
+
 var repository = new TesterRepository();
 repository.Test();
 
